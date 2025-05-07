@@ -1,0 +1,69 @@
+/* CSS: styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #ffeb3b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 140px); /* Subtraindo altura do header e footer */
+  }
+  
+  .card {
+    background-color: #f5f5f5;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #ffeb3b;
+  }
+  
+  .card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: #4caf50;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+  
